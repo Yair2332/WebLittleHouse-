@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+
+body{
+    background-image: url("../img/banner/fondobanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+main{
+    background-color: rgba(6, 117, 89, 0.459);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    margin-top: 120px;
+    max-width: 900px;
+}
+
+section{
+    background-color: aliceblue;
+    max-width: 800px;
+    box-shadow: 0px 0px 15px black;
+}
+
+h1,h2, #revolver, #terminado{
+    background-color: white;
+    color: rgb(69, 138, 4);
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 2px;
+    font-size: 2rem;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px black;
+}
+
+h2{
+    width: 98%;
+}
+
+
+#rompe1-contenedor,#rompe2-contenedor,#rompe3-contenedor,#rompe4-contenedor{
+    border: 5px solid rgb(0, 0, 0);
+    margin: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+
+#rompe1-contenedor img, #rompe2-contenedor img, #rompe3-contenedor img,#rompe4-contenedor img{
+    width: 100%;
+    display: flex;
+}
+
+
+#rompe1{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#rompe2{
+    display: none;
+}
+
+#rompe3{
+    display: none;
+}
+
+#rompe4{
+    display: none;
+}
+
+
+
+
+
+
+#siguiente,#siguiente2,#siguiente3, #revolver{
+    display: none;
+    margin-top: 20px;
+}
+
+
+
+@media (max-height: 800px) {
+    
+    section{
+    max-width: 750px;
+    }
+
+}
+
+
+@media (max-height: 750px) {
+    
+    section{
+    max-width: 680px;
+    }
+
+}
+
+@media (max-height: 690px) {
+    
+    section{
+    max-width: 600px;
+    }
+
+}
+
+
+@media (max-width: 460px) {
+    
+    main {
+        padding: 0px;
+    }
+}
+
+
+#terminado{
+    margin-top: 20px;
+    text-decoration: none;
+    display: none;
+}

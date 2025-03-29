@@ -1,0 +1,112 @@
+.informacion_completa{
+    height: max-content;
+    padding: 60px 0px 60px 0px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("../img/img_info/fondo\ \(3\).jpg");
+}
+
+.in{
+    height: max-content;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.p1, .p2, .p3{
+    max-height: max-content;
+    min-height: 39vh;
+    width: 90%;
+    min-width: 660px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: rgba(0, 255, 8, 0.502);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px white;
+    align-items: flex-start;
+}
+
+.p1{
+    margin-top: 20px;
+}
+
+.img_info{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 48%;
+    height: 36vh;
+    background-color: aqua;
+}
+
+#sobre_img1{background-image: url("../img/img_info/perritos_somos.jpg");}
+#sobre_img2{background-image: url("../img/img_info/perros_somos.jpg");}
+#sobre_img3{background-image: url("../img/img_info/perrito.jpg");}
+
+.tex{
+    width: 48%;
+    height: 100%;
+    color: aliceblue;
+}
+
+.tex h3{
+    font-size: 2rem;
+}
+
+.tex p{
+    font-size: 1.5rem;
+    height: 89%;
+}
+
+
+#cabecera_info{
+    background-color: rgba(13, 199, 137, 0.425);
+}
+
+
+@media (max-width: 740px){
+    .p1, .p2, .p3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 90vh;
+        min-width: 0px;
+    } 
+
+    .p2{
+        flex-direction: column-reverse;
+    }
+
+    #cabecera_info h2{
+        font-size: 1.5rem;
+    }
+
+    .tex {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .img_info {
+        width: 100%;
+    }
+
+    .in {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 450px){
+
+	.tex p {
+    	font-size: 1.1rem;
+
+	}
+}

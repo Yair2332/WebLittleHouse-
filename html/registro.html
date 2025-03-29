@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LittleHouse - Registro</title>
+    <link rel="shortcut icon" href="../img/logo/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../css/ubicaciones.css">
+    <link rel="stylesheet" href="../css/registro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <header>
+        <img src="../img/banner/logo.png" alt="">
+        <a class="home_icon" href="../index.php"><i class="fa-solid fa-house"></i></a>
+    </header>
+    
+    <article id="registro" class="estilos_info info">
+        <div class="content">
+            <div class="informacion">
+                <h3>Registro<br>Little House</h3>
+                <p>Registrate para poder cooperar</p>
+                <img src="../img/registro/registro.png" alt="">
+                <p class="icons">
+                    <!--<a href=""><i class="fa-brands fa-facebook"></i></a>-->
+                    <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=little.house.tec11@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.instagram.com/little_house.011/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/541127246695?text=¡Hola%20somos%20LittleHouse,%20Como%20estas??%20Gracias%20por%20contactarnos,%20Puedes%20realizar%20cualquier%20consulta%20...%20"><i class="fa-solid fa-phone"></i></a>
+                    <a href="../index.php"><i class="fa-solid fa-house"></i></a><br><br>
+                    <a href="../html/iniciosession.html">inicio Session</a>
+                </p>
+            </div>
+            <div class="informacion">
+                <form action="../php/añadir_usuario.php" method="post" id="registro_form">
+                            <input type="text" name="nombre_usuario" placeholder="Nombre" required>
+                            <input type="text" name="apellido_usuario" id="Apellido" placeholder="Apellido" required>
+                            <input type="email" name="correo_usuario" id="Correo Electronico" placeholder="Correo Electronico" required>
+                            <input type="text" name="usuario" id="Usuario" placeholder="Usuario" required>
+                            <input type="password" name="contrasenia" id="Contraseña" placeholder="Contraseña" require>
+                            <input type="number" name="contacto" id="Contacto" placeholder="Contacto" require>
+                            <button id="enviar">Registrarse</button>
+                </form>
+            </div>
+        </div>
+    </article>
+</body>
+</html>

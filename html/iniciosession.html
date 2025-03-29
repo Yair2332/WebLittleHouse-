@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LittleHouse - Inicio Session</title>
+    <link rel="shortcut icon" href="../img/logo/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../css/ubicaciones.css">
+    <link rel="stylesheet" href="../css/Iniciosession.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <header>
+        <img src="../img/banner/logo.png" alt="" onclick="ad()">
+        <a class="home_icon" href="../index.php"><i class="fa-solid fa-house"></i></a>
+    </header>
+    
+    <article id="inicio" class="estilos_info info">
+        <div class="content">
+            <div class="informacion">
+                <h3>Inicio Session<br>Little House</h3>
+                <p>Registrate para poder cooperar</p>
+                <img src="../img/iniciosession/perroinicio.png" alt="" onclick="ad()">
+                <p class="icons">
+                    <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=little.house.tec11@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.instagram.com/little_house.011/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/541127246695?text=¡Hola%20somos%20LittleHouse,%20Como%20estas??%20Gracias%20por%20contactarnos,%20Puedes%20realizar%20cualquier%20consulta%20...%20"><i class="fa-solid fa-phone"></i></a>
+                    <a href="../index.php"><i class="fa-solid fa-house"></i></a><br><br>
+                    <a href="../html/registro.html">Registrate</a>
+                </p>
+            </div>
+            <div class="informacion">
+                <form action="../php/verificacion_inicio.php" id="inicio_form" method="post">
+                    <input type="email" name="Correo_usu_inicio" id="Correo Electronico" placeholder="Correo Electronico" required>
+                    <input type="text" name="usuario_usu_inicio" id="Usuario" placeholder="Usuario" required>
+                    <input type="password" name="contrasenia_usu_inicio" id="Contraseña" placeholder="Contraseña" require>
+                    <button id="enviar">Iniciar Session</button>   
+                </form>
+                <form action="../php/Admin.php" id="admin_" method="post">
+                    <input type="text" name="admin" id="admin" placeholder="Admin" required>
+                    <input type="text" name="Clave_admin" id="Clave_admin" placeholder="Clave_Admin" required>
+                    <input type="password" name="Contraseña_ad" id="Contraseña_ad" placeholder="Contraseña_ad" require>
+                    <input type="email" name="email_ad" id="email_ad" placeholder="email_ad" required>
+                    <button id="enviar2">Iniciar Session</button>   
+                </form>
+            </div>
+        </div>
+    </article>
+
+
+    <script src="../js/admin.js"></script>
+</body>
+</html>

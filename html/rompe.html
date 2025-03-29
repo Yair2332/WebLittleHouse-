@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rompe-cabezas</title>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../css/rompe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://www.puzzlesycubosde.com/wp-content/uploads/2020/05/LOGO-DETALLE.png">
+</head>
+<body>
+
+    <header>
+        <img src="../img/banner/logo.png" alt="">
+        <nav>
+
+            
+            <label for="hamburguesa"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" name="hamburguesa" id="hamburguesa" checked>
+            
+            <ul id="navgrande">
+                <li><a href="../index.php">Home</a></li>
+                <li><a href="../html/adopcion.php">Adopcion</a></li>
+                <li><a href="../html/sobre_nosotros.html">Informacion</a></li>
+                <li><a href="../html/ubicaciones.php">Ubicacion</a></li>
+                <li><a href="../html/construccion.html">Construccion</a></li>
+                <li><a href="../html/tienda.php">Ayudanos</a></li>
+                
+            </ul>
+            
+        </nav>
+    </header>
+
+    <main>
+        <h1>Rompe-cabezas</h1> 
+        <h2 id="revolver" onclick="desabilitar()">Revolver</h2>
+        <section id="rompe1">
+            
+            <div id="rompe1-contenedor">
+                
+                <table>
+                    <tr>
+                        <td><img id="0" onclick="elegir(0)" src="../img/img_rompe/1.jpg" alt=""></td>
+                        <td><img id="1" onclick="elegir(1)" src="../img/img_rompe/2.jpg" alt=""></td>
+                        <td><img id="2" onclick="elegir(2)" src="../img/img_rompe/3.jpg" alt=""></td>
+                        <td><img id="3" onclick="elegir(3)" src="../img/img_rompe/4.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img id="4" onclick="elegir(4)" src="../img/img_rompe/5.jpg" alt=""></td>
+                        <td><img id="5" onclick="elegir(5)" src="../img/img_rompe/6.jpg" alt=""></td>
+                        <td><img id="6" onclick="elegir(6)" src="../img/img_rompe/7.jpg" alt=""></td>
+                        <td><img id="7" onclick="elegir(7)" src="../img/img_rompe/8.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img id="8" onclick="elegir(8)" src="../img/img_rompe/9.jpg" alt=""></td>
+                        <td><img id="9" onclick="elegir(9)" src="../img/img_rompe/10.jpg" alt=""></td>
+                        <td><img id="10" onclick="elegir(10)" src="../img/img_rompe/11.jpg" alt=""></td>
+                        <td><img id="11" onclick="elegir(11)" src="../img/img_rompe/12.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img id="12" onclick="elegir(12)" src="../img/img_rompe/13.jpg" alt=""></td>
+                        <td><img id="13" onclick="elegir(13)" src="../img/img_rompe/14.jpg" alt=""></td>
+                        <td><img id="14" onclick="elegir(14)" src="../img/img_rompe/15.jpg" alt=""></td>
+                        <td><img id="15" onclick="elegir(15)" src="../img/img_rompe/16.jpg" alt=""></td>
+                    </tr>
+                </table>
+            </div>
+            <h2 class="movimientos" id="movimiento">Movimiento: 0</h2>
+        </section>
+    
+        <section id="rompe2">
+            <div id="rompe2-contenedor">
+                <table>
+                    <tr>
+                        <td><img id="0-2" onclick="elegir(0)" src="../img/img_rompe/2/1.jpg" alt=""></td>
+                        <td><img id="1-2" onclick="elegir(1)" src="../img/img_rompe/2/2.jpg" alt=""></td>
+                        <td><img id="2-2" onclick="elegir(2)" src="../img/img_rompe/2/3.jpg" alt=""></td>
+                        <td><img id="3-2" onclick="elegir(3)" src="../img/img_rompe/2/4.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img id="4-2" onclick="elegir(4)" src="../img/img_rompe/2/5.jpg" alt=""></td>
+                        <td><img id="5-2" onclick="elegir(5)" src="../img/img_rompe/2/6.jpg" alt=""></td>
+                        <td><img id="6-2" onclick="elegir(6)" src="../img/img_rompe/2/7.jpg" alt=""></td>
+                        <td><img id="7-2" onclick="elegir(7)" src="../img/img_rompe/2/8.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img id="8-2" onclick="elegir(8)" src="../img/img_rompe/2/9.jpg" alt=""></td>
+                        <td><img id="9-2" onclick="elegir(9)" src="../img/img_rompe/2/10.jpg" alt=""></td>
+                        <td><img id="10-2" onclick="elegir(10)" src="../img/img_rompe/2/11.jpg" alt=""></td>
+                        <td><img id="11-2" onclick="elegir(11)" src="../img/img_rompe/2/12.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img id="12-2" onclick="elegir(12)" src="../img/img_rompe/2/13.jpg" alt=""></td>
+                        <td><img id="13-2" onclick="elegir(13)" src="../img/img_rompe/2/14.jpg" alt=""></td>
+                        <td><img id="14-2" onclick="elegir(14)" src="../img/img_rompe/2/15.jpg" alt=""></td>
+                        <td><img id="15-2" onclick="elegir(15)" src="../img/img_rompe/2/16.jpg" alt=""></td>
+                    </tr>
+                </table>
+            </div>
+            <h2 class="movimientos" id="movimiento-2">Movimiento: 0</h2>
+        </section>
+
+        
+    
+        <section id="rompe3">
+            <div id="rompe3-contenedor">
+                <table>
+                    <tr>
+                        <td><img id="0-3" onclick="elegir(0)" src="../img/img_rompe/3/1.jpg" alt=""></td>
+                        <td><img id="1-3" onclick="elegir(1)" src="../img/img_rompe/3/2.jpg" alt=""></td>
+                        <td><img id="2-3" onclick="elegir(2)" src="../img/img_rompe/3/3.jpg" alt=""></td>
+                        <td><img id="3-3" onclick="elegir(3)" src="../img/img_rompe/3/4.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img id="4-3" onclick="elegir(4)" src="../img/img_rompe/3/5.jpg" alt=""></td>
+                        <td><img id="5-3" onclick="elegir(5)" src="../img/img_rompe/3/6.jpg" alt=""></td>
+                        <td><img id="6-3" onclick="elegir(6)" src="../img/img_rompe/3/7.jpg" alt=""></td>
+                        <td><img id="7-3" onclick="elegir(7)" src="../img/img_rompe/3/8.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img id="8-3" onclick="elegir(8)" src="../img/img_rompe/3/9.jpg" alt=""></td>
+                        <td><img id="9-3" onclick="elegir(9)" src="../img/img_rompe/3/10.jpg" alt=""></td>
+                        <td><img id="10-3" onclick="elegir(10)" src="../img/img_rompe/3/11.jpg" alt=""></td>
+                        <td><img id="11-3" onclick="elegir(11)" src="../img/img_rompe/3/12.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img id="12-3" onclick="elegir(12)" src="../img/img_rompe/3/13.jpg" alt=""></td>
+                        <td><img id="13-3" onclick="elegir(13)" src="../img/img_rompe/3/14.jpg" alt=""></td>
+                        <td><img id="14-3" onclick="elegir(14)" src="../img/img_rompe/3/15.jpg" alt=""></td>
+                        <td><img id="15-3" onclick="elegir(15)" src="../img/img_rompe/3/16.jpg" alt=""></td>
+                    </tr>
+                </table>
+            </div>
+            <h2 class="movimientos" id="movimiento-3">Movimiento: 0</h2>
+        </section>
+    
+        <section id="rompe4">
+            <div id="rompe4-contenedor">
+                <table>
+                    <tr>
+                        <td><img id="0-4" onclick="elegir(0)" src="../img/img_rompe/5/1.jpg" alt=""></td>
+                        <td><img id="1-4" onclick="elegir(1)" src="../img/img_rompe/5/2.jpg" alt=""></td>
+                        <td><img id="2-4" onclick="elegir(2)" src="../img/img_rompe/5/3.jpg" alt=""></td>
+                        <td><img id="3-4" onclick="elegir(3)" src="../img/img_rompe/5/4.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img id="4-4" onclick="elegir(4)" src="../img/img_rompe/5/5.jpg" alt=""></td>
+                        <td><img id="5-4" onclick="elegir(5)" src="../img/img_rompe/5/6.jpg" alt=""></td>
+                        <td><img id="6-4" onclick="elegir(6)" src="../img/img_rompe/5/7.jpg" alt=""></td>
+                        <td><img id="7-4" onclick="elegir(7)" src="../img/img_rompe/5/8.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img id="8-4" onclick="elegir(8)" src="../img/img_rompe/5/9.jpg" alt=""></td>
+                        <td><img id="9-4" onclick="elegir(9)" src="../img/img_rompe/5/10.jpg" alt=""></td>
+                        <td><img id="10-4" onclick="elegir(10)" src="../img/img_rompe/5/11.jpg" alt=""></td>
+                        <td><img id="11-4" onclick="elegir(11)" src="../img/img_rompe/5/12.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img id="12-4" onclick="elegir(12)" src="../img/img_rompe/5/13.jpg" alt=""></td>
+                        <td><img id="13-4" onclick="elegir(13)" src="../img/img_rompe/5/14.jpg" alt=""></td>
+                        <td><img id="14-4" onclick="elegir(14)" src="../img/img_rompe/5/15.jpg" alt=""></td>
+                        <td><img id="15-4" onclick="elegir(15)" src="../img/img_rompe/5/16.jpg" alt=""></td>
+                    </tr>
+                </table>
+            </div>
+            <h2 class="movimientos" id="movimiento-4">Movimiento: 0</h2>
+        </section>
+    
+        <h2 id="siguiente" onclick="sigui()">Siguiente</h2>
+        <a href="../index.php" id="terminado">Juego Terminado: Gracias por jugar</a>
+    </main>
+    
+    
+    
+    <script src="../js/rompe.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+
+.perrito_gif{
+    height: 90px;
+    position:fixed;
+    bottom: -15px;
+    animation: correr 50s;
+    z-index: 100000;
+    animation-iteration-count: infinite;
+}
+
+.alreves{
+    animation: correr_alreves 50s;
+}
+
+
+@keyframes correr {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(10000%);
+    }
+}
+
+@keyframes correr_alreves {
+    0%{
+        transform: translateX(10000%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
